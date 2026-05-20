@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name" translatable="false">pati</string>
+
+    <string-array name="adoption_types">
+        <item>Kalici</item>
+        <item>Gecici</item>
+    </string-array>
+
+    <string-array name="animal_types">
+        <item>Kedi</item>
+        <item>Kopek</item>
+        <item>Kus</item>
+    </string-array>
+
+    <string-array name="gender_types">
+        <item>Disi</item>
+        <item>Erkek</item>
+    </string-array>
+
+</resources>

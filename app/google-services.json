@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "777508085580",
+    "project_id": "javainstaclone-daece",
+    "storage_bucket": "javainstaclone-daece.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777508085580:android:3b4f803850df72d72279e9",
+        "android_client_info": {
+          "package_name": "com.bbuse.pati"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnV8aJPo0H3kTQPMcF3C1ydEv5M1bq2o8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

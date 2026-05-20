@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- Button arka plan rengi -->
+    <solid android:color="#FFDADF" /> <!-- Pembe renk -->
+
+    <!-- Button kenarlarının yuvarlaklık değeri -->
+    <corners android:radius="25dp" /> <!-- Köşeleri oval yapmak için -->
+    <stroke
+        android:width="3dp"
+        android:color="#FD93C8" /> <!-- Sınır çizgisi ve rengi -->
+</shape>
