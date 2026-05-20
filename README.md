@@ -1,4 +1,5 @@
 🐾 Evcil Hayvan Sahiplendirme Mobil Uygulaması -> Pati
+
 Android | Firebase | Java
 
 Android Studio ve Java kullanılarak geliştirilmiş bir mobil evcil hayvan sahiplendirme uygulamasıdır. 
@@ -6,10 +7,15 @@ Kullanıcılar ilan oluşturabilir, diğer ilanları görüntüleyebilir, ilan s
 Uygulama Firebase altyapısı ile çalışır ve kullanıcı verileri anlık olarak senkronize edilir.
 
 📱 Proje Hakkında
+
 Bu uygulama, evcil hayvanların sahiplendirilmesini kolaylaştırmak için geliştirilmiştir. Kullanıcılar:
+
 -Fotoğraflı ilan oluşturabilir
+
 -Mevcut ilanları listeleyebilir
+
 -İlan detaylarını görüntüleyebilir
+
 -Firebase üzerinden gerçek zamanlı veri akışı kullanabilir
 
 🚀 Özellikler
