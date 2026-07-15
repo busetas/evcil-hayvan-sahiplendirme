@@ -1,108 +1,118 @@
-🐾 Evcil Hayvan Sahiplendirme Mobil Uygulaması -> Pati
+# 🐾 Pati - Pet Adoption Mobile Application
 
-Android | Firebase | Java
+**Pati** is a native Android application developed with **Java** and **Firebase** to simplify the pet adoption process. The application enables users to create adoption listings, browse available pets, manage their own listings, and filter posts based on different criteria through a clean and user-friendly interface.
 
-Android Studio ve Java kullanılarak geliştirilmiş bir mobil evcil hayvan sahiplendirme uygulamasıdır. 
-Kullanıcılar ilan oluşturabilir, diğer ilanları görüntüleyebilir, ilan sahipleriyle iletişime geçebilir ve sahiplendirme süreçlerini dijital ortamda yönetebilir.
-Uygulama Firebase altyapısı ile çalışır ve kullanıcı verileri anlık olarak senkronize edilir.
+> This project was developed to gain practical experience in Android development, Firebase services, and real-time mobile application architecture.
 
-📱 Proje Hakkında
+## 📱 Screenshots
 
-Bu uygulama, evcil hayvanların sahiplendirilmesini kolaylaştırmak için geliştirilmiştir. Kullanıcılar:
+| Login | Home Feed | Add Listing |
+|--------|-----------|-------------|
+| *(Add Screenshot)* | *(Add Screenshot)* | *(Add Screenshot)* |
 
--Fotoğraflı ilan oluşturabilir
+| My Listings | Filters |
+|-------------|----------|
+| *(Add Screenshot)* | *(Add Screenshot)* |
 
--Mevcut ilanları listeleyebilir
+## ✨ Features
 
--İlan detaylarını görüntüleyebilir
+- 🔐 User registration and login with Firebase Authentication
+- 📸 Create adoption listings with pet images
+- 📄 Browse available adoption listings
+- 🔍 Filter listings by:
+  - Animal Type
+  - Gender
+  - Adoption Type
+- 👤 View and manage personal listings
+- ☁️ Real-time data synchronization with Firebase Firestore
+- 🖼️ Image storage using Firebase Storage
+- 📱 Modern and responsive Android user interface
 
--Firebase üzerinden gerçek zamanlı veri akışı kullanabilir
+## 🛠️ Tech Stack
 
+- **Language:** Java
+- **IDE:** Android Studio
+- **Backend:** Firebase
+- **Authentication:** Firebase Authentication
+- **Database:** Cloud Firestore
+- **Storage:** Firebase Storage
+- **UI Design:** XML
 
-🚀 Özellikler
+## 📂 Project Structure
 
-🔐 Firebase Authentication ile kullanıcı girişi ve kayıt
-
-☁️ Firebase Firestore ile gerçek zamanlı veri yönetimi
-
-📸 Fotoğraflı ilan oluşturma ve paylaşma
-
-📄 İlan listeleme ve detay görüntüleme
-
-🔄 Gerçek zamanlı veri senkronizasyonu (real-time updates)
-
-📱 Modern ve kullanıcı dostu arayüz
-
-🧩 Modüler ve sürdürülebilir proje yapısı
-
-
-🛠️ Kullanılan Teknolojiler
-
-Java (Android)
-
-Android Studio
-
-Firebase Authentication
-
-Firebase Firestore
-
-Firebase Storage
-
-XML (UI Design)
-
-
-📂 Proje Yapısı
-
-Uygulama modüler bir yapı üzerine kurulmuştur:
-
+```
 app/
- ├── activities/
- ├── adapters/
- ├── models/
- ├── fragments/
- ├── utils/
- └── res/
- 
- 👉 UI, veri ve iş mantığı ayrıştırılarak daha sürdürülebilir bir yapı hedeflenmiştir.
+├── adapter/
+├── model/
+├── view/
+├── res/
+│   ├── drawable/
+│   ├── layout/
+│   ├── menu/
+│   └── values/
+```
 
+The project follows a modular structure by separating UI components, business logic, and data models for better maintainability and scalability.
 
-⚙️ Kurulum
+## 🚀 Getting Started
 
-1- Repository’yi klonla:
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/busetas/evcil-hayvan-sahiplendirme.git
+```
 
-2- Android Studio ile projeyi aç.
+### 2. Open the project
 
-3- Firebase bağlantılarını ekle:
-google-services.json dosyasını app/ klasörüne ekle.
+Open the project using **Android Studio**.
 
-4- Run ▶️
+### 3. Configure Firebase
 
+Create your own Firebase project and enable:
 
-🔐 Güvenlik Notu
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Storage
 
-Firebase yapılandırması için kendi Firebase projenizi oluşturmanız gerekir.
-google-services.json dosyası güvenlik nedeniyle repoda yer almamaktadır
+Then add your `google-services.json` file to:
 
+```
+app/
+```
 
-🎯 Proje Amacı
+### 4. Run the application
 
-Bu proje:
-
--Gerçek dünya senaryosu simülasyonu
-
--Firebase entegrasyonu deneyimi
-
--Mobil UI/UX geliştirme pratiği
-
--Modüler Android proje yapısı oluşturma amaçlarıyla geliştirilmiştir.
+Sync Gradle and run the project on an Android device or emulator.
 
 
-👩‍💻 Geliştirici
+## 🔒 Security
 
-Buse Taş
+For security reasons, the **google-services.json** configuration file is not included in this repository.
 
-Bilgisayar Mühendisi
 
-Mobil uygulama geliştirme odaklı projeler üretmekteyim
+## 🎯 Project Goals
 
+This project was developed to improve practical experience in:
+
+- Native Android Development
+- Firebase Integration
+- Authentication Systems
+- Real-Time Database Management
+- Mobile UI/UX Design
+- Clean and Modular Application Structure
+
+
+## 👩‍💻 Developer
+
+**Buse Taş**
+
+Computer Engineer
+
+📧 LinkedIn: https://www.linkedin.com/in/buse-tas/
+
+💻 GitHub: https://github.com/busetas
+
+
+## ⭐ If you like this project
+
+Feel free to ⭐ star the repository and share your feedback!
