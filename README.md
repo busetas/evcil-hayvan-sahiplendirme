@@ -6,13 +6,8 @@
 
 ## 📱 Screenshots
 
-| Login | Home Feed | Add Listing |
-|--------|-----------|-------------|
-| *(Add Screenshot)* | *(Add Screenshot)* | *(Add Screenshot)* |
+<img width="1536" height="1024" alt="genel" src="https://github.com/user-attachments/assets/bef19e8a-24f8-4490-9b43-753de1f5e09b" />
 
-| My Listings | Filters |
-|-------------|----------|
-| *(Add Screenshot)* | *(Add Screenshot)* |
 
 ## ✨ Features
 
