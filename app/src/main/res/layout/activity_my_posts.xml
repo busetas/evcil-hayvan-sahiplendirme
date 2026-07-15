@@ -9,7 +9,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="75dp"
-        android:background="?attr/colorPrimary"
+        android:background="#FF4DA6"
         app:title="İlanlarım"
         app:titleTextColor="@android:color/white"
         app:layout_constraintTop_toTopOf="parent"
